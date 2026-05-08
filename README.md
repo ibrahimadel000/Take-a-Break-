@@ -10,10 +10,13 @@ This is a great tool—eye strain is no joke when you're deep in a coding sessio
 
 ## ✨ Features
 
-*   **Simple Timer:** A clean, unobtrusive countdown.
-*   **Automatic Popups:** The app brings a break window to the front every 20 minutes.
-*   **Rest Countdown:** Tracks your 20-second break in real-time.
-*   **Customizable:** Easily adjust both the **Reminder Interval** and **Break Length** to suit your workflow.
+*   **Advanced Timer:** A clean, modern UI powered by `customtkinter`.
+*   **System Tray Integration:** Minimize the app to the tray to keep your taskbar clean.
+*   **Native Windows Notifications:** Interactive toast notifications to remind you to rest.
+*   **Wellness Prompts:** Randomized suggestions (eye rolls, stretches) during breaks.
+*   **Stats & History:** Tracks your breaks over the last 7 days.
+*   **Meeting Mode:** A silent mode for when you're in calls, skipping popups while keeping the timer running.
+*   **Long Break Cycles:** Configure a longer rest after a set number of short breaks.
 
 ---
 
@@ -22,10 +25,20 @@ This is a great tool—eye strain is no joke when you're deep in a coding sessio
 ### Prerequisites
 *   **Python 3.x** must be installed on your Windows machine.
 
+### Installation
+1.  **Clone** this repository:
+    ```bash
+    git clone https://github.com/ibrahimadel000/Take-a-Break-.git
+    cd Take-a-Break-
+    ```
+2.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ### How to Run
-1.  **Clone or Download** this repository to your local machine.
-2.  **Quick Start:** Simply double-click the `start_take_a_break.bat` file in the project folder.
-3.  **Manual Start:** Alternatively, open PowerShell or Command Prompt in the project directory and run:
+1.  **Quick Start:** Simply double-click the `start_take_a_break.bat` file in the project folder.
+2.  **Manual Start:** Alternatively, run:
     ```powershell
     python app.py
     ```
@@ -34,21 +47,17 @@ This is a great tool—eye strain is no joke when you're deep in a coding sessio
 
 ## ⚙️ Configuration
 
-By default, the app follows the standard ergonomic recommendation:
-*   **Reminder Interval:** `20` minutes
-*   **Break Length:** `20` seconds
-
-> [!TIP]
-> You can modify these settings directly within the app interface to customize your rest cycle.
+The app is highly customizable through the UI:
+*   **Appearance:** Choose between Light, Dark, or System themes.
+*   **Intervals:** Set custom focus times and break durations.
+*   **Long Breaks:** Set how many short breaks lead to a long rest.
 
 ---
 
 ## 🗺️ Roadmap
-I’m planning to add the following features in future updates:
-*   [ ] **System Tray Integration:** Minimize the app to the tray to keep your taskbar clean.
-*   [ ] **Native Notifications:** Use Windows Toast Notifications for a smoother user experience.
 *   [ ] **Auto-Start:** Option to launch the app automatically on Windows boot.
-*   [ ] **Standalone Executable:** Package the project as a `.exe` so Python isn't required to run it.
+*   [ ] **Custom Sounds:** Allow users to select their own notification sounds.
+*   [ ] **Cross-Platform Support:** Expand beyond Windows (currently optimized for Win32).
 
 ---
 
